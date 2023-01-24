@@ -1,0 +1,147 @@
+body{
+    margin: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*header*/
+header{
+    flex: 0 0 40px;
+    background-color:#1F2937 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+header p{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+header ul{
+    display: flex;
+    list-style: none;  
+    gap: 10px;
+}
+header a{
+    text-decoration: none;
+    color: grey;
+}
+/*Container*/
+
+/*Hero*/
+.hero{
+    background-color:#1F2937 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 10%;
+    gap: 15px;
+
+}
+.hero-left h1{
+    font-size: 40px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.hero-left p{
+    font-size:18px ;
+    color: #E5E7EB;
+}
+.hero-left button{
+    font-size: 16px;
+    font-weight: 400;
+    background: none;
+	color: white;
+	border: 1px solid white;
+    border-radius: 10px;
+	padding: 8px;
+}
+.hero-imagen{
+    height: 250px;
+    width: 400px;
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Random information*/
+.random-info{
+    text-align: center;
+    padding: 50px;
+}
+.random-info h3{
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.ri-items{
+    display: flex;
+    gap: 16px;
+}
+/*Quote*/
+.quote-section{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    flex-direction:column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.quote{
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+   text-align: justify;
+}
+.author{
+    text-align: right;
+    font-size: 26px;
+    font-weight: bold;
+}
+/*Signup*/
+.signup{
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882f6 ;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 10px;
+}
+.signup .texto-su{
+    color: #e5e7eb;
+}
+.signup .texto-su h5{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 ;
+}
+.signup button{
+    font-size: 16px;
+    font-weight: 400;
+    background: none;
+	color: white;
+	border: 1px solid white;
+    border-radius: 10px;
+	padding: 8px;
+}
+/*Footer*/
+footer{
+    flex: 0 0 40px;
+    background-color:#1F2937 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    color: #f9faf8;
+}

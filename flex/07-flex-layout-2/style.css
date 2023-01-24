@@ -26,3 +26,46 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/*Solucion*/
+body{
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+}
+.content{
+  flex: 1;
+  display: flex;
+}
+.sidebar{
+  flex:0 0 300px;
+  padding: 16px;
+}
+.sidebar  ul{
+  list-style: none;
+}
+.sidebar  a{
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+}
+.cards{
+  padding: 32px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.card{
+  padding: 16px;
+  width: 300px;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

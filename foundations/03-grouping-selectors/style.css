@@ -1,0 +1,12 @@
+.primero, .segundo{
+    font-size: 28px;
+    font-family: 'Times New Roman', Helvetica, sans-serif;
+}
+.primero {
+    color: white;
+    background-color: black;
+}
+.segundo{
+    background-color: blue;
+
+}

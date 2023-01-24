@@ -24,3 +24,19 @@ img {
   justify-content: center;
   background: #eee;
 }
+/*Solucion*/
+body{
+  text-align: center;
+}
+.title{
+  margin-bottom: 32px;
+}
+.imagenes{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.planta{
+  padding: 10px;
+  max-width: 200px;
+}

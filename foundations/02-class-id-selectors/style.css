@@ -1,0 +1,29 @@
+.caja-rosa{
+    background-color: pink;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+
+}
+#dos{
+    font-family: Helvetica, sans-serif;
+    color: blue;
+    font-size: 36px;
+}
+.uno {
+    font-size: 18px;
+    font-weight: 500;
+}
+.tres{
+    font-size: 24px;
+}
+#cuatro{
+    font-family: Arial, sans-serif;
+    background-color: greenyellow;
+    font-size: 24px;
+    font-weight: 700;
+}
+.cinco{
+    font-size: 14px;
+    font-weight: 400;
+}
+
